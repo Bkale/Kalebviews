@@ -1,4 +1,8 @@
 .DevPortfolioBody{
-  background-color: lightblue;
-  height: 100vh;
+}
+
+.project1{
+  background-image: url("../assets/DrinksOnUs.png");
+  height: 400px;
+  background-repeat: no-repeat;
 }

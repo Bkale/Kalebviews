@@ -1,4 +1,29 @@
+@import 'https://fonts.googleapis.com/css?family=NTR';
 .HomeBody{
-  background-color: lightyellow;
+  background-image: url("../assets/Home.jpg");
   height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.Content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+h2{
+  font-family: 'NTR', sans-serif;
+}
+p{
+  font-family: 'NTR', sans-serif;
+}
+.logos{
+  display: flex;
+  justify-content:space-around;
+  width:30vw;
 }

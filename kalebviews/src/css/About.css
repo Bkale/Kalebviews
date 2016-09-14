@@ -1,4 +1,22 @@
+@import 'https://fonts.googleapis.com/css?family=NTR';
+
 .AboutBody{
-  background-color: cyan;
+  background-image: url("../assets/About.png");
   height: 100vh;
+  background-size: contain;
+  display: flex;
+  justify-content: space-around;;
+}
+.col1{
+  width: 35vw;
+}
+.col2{
+  width: 35vw;
+}
+
+h2{
+  font-family: 'NTR', sans-serif;
+}
+p{
+  font-family: 'NTR', sans-serif;
 }
