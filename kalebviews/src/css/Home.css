@@ -1,7 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=NTR';
+
 .HomeBody{
-  background-image: url("../assets/Home.jpg");
   height: 100vh;
+  width: 100vw;
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
@@ -14,6 +15,10 @@
   align-items: center;
   align-content: center;
   flex-direction: column;
+}
+
+.logos{
+  color: red;
 }
 
 h2{

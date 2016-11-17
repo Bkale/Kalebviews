@@ -1,7 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=NTR';
 
 .AboutBody{
-  background-image: url("../assets/About.png");
   height: 100vh;
   background-size: contain;
   display: flex;

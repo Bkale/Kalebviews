@@ -1,8 +1,53 @@
 .DevPortfolioBody{
+  height: 90vh;
+  width: 100vw;
+  margin: auto;
+  overflow: scroll;
+}
+.pContainer{
+  display:inline-block;
+  width: 90vw;
+  height: 80vh;
+}
+.projectImages{
+  height: 55vh;
+  width: 35vw;
+  position: absolute;
+  padding: 10px;
+  margin: 10px;
+}
+.projectDetail{
+  padding-top: 10vh;
+  height: 55vh;
+  width: 42vw;
 }
 
-.project1{
-  background-image: url("../assets/DrinksOnUs.png");
+.project2{
+  background-image: url("../assets/projects/Timeline.png");
   height: 400px;
   background-repeat: no-repeat;
+  margin-left: 200px;
+}
+.project3{
+  background-image: url("../assets/projects/MediaHub.png");
+  height: 400px;
+  background-repeat: no-repeat;
+  margin-left: 200px;
+}
+.carousel{
+  margin-top: 20px;
+}
+
+.containers {
+  margin: 0 auto;
+  padding: 40px;
+  width: 80%;
+  height: 65vh;
+  color: #333;
+  background: #419be0;
+}
+
+.slick-track{
+  height: 60vh;
+  width: 60vw;
 }
