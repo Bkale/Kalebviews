@@ -1,0 +1,22 @@
+.PortraitsBody{
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+
+
+.PortraitsImagecontainer{
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+.PortraitsImage{
+  height: 85vh;
+  padding-right: 0.5vw;
+}

@@ -10,7 +10,7 @@ class PortfolioHeader extends Component {
         <div><Link to="/Photography/Overview" className="PortfolioHeaderLinks">Overview</Link></div>
         <div><Link to="/Photography/Portraits" className="PortfolioHeaderLinks">Portraits</Link></div>
         <div><Link to="/Photography/Events" className="PortfolioHeaderLinks">Events</Link></div>
-        <div><Link to="/Photography/Info" className="PortfolioHeaderLinks">Info</Link></div>
+        <div><Link to="/Photography/Instagram" className="PortfolioHeaderLinks">Instagram</Link></div>
       </div>
     )
   }

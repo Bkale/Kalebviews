@@ -9,6 +9,7 @@ class Events extends Component{
         <div className="PortfolioHeader">
           <PortfolioHeader/>
         </div>
+        <h3>Under Construction</h3>
 
       </div>
     )

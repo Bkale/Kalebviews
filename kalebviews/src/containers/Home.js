@@ -4,14 +4,23 @@ import '../font-awesome/css/font-awesome.css'
 import '../css/Home.css'
 
 class Home extends Component {
+  constructor(props){
+    super(props);
+    this.state = ({
+      currentTitle: "Full-Stack Developer",
+      jobTitles: ["Full-Stack Developer", "Photographer", "Entrepreneur"],
+      count: 1
+    })
+  }
 
 
-  render() {
+
+  render(){
     return(
       <div className="HomeBody">
         <div className="Content">
-          <h2>HI THERE, WELCOME TO MY SITE</h2>
-          <p>LET'S TAKE A LOOK AROUND...</p>
+
+          <h2>{this.state.currentTitle}</h2>
 
           <div className="logos">
             <a href="mailto:bkale09@gmail.com?Subject=Hi">

@@ -45,7 +45,7 @@ class DevPortfolio extends Component {
             </div>
 
             <div className="pContainer">
-              <img src={img2} className="projectImages"/>
+              <img src={img3} className="projectImages"/>
               <section className="projectDetail">
                 <h1>Timeline</h1>
                 <p>Timeline is a web application that reaches out New York Times and Youtube API to create a visual
@@ -56,7 +56,7 @@ class DevPortfolio extends Component {
             </div>
 
             <div className="pContainer">
-              <img src={img3} className="projectImages"/>
+              <img src={img2} className="projectImages"/>
               <section className="projectDetail">
                 <h1>Mediahub</h1>
                 <p>Designed this web application that uses Spotify api to stream 30 sec previews of an artists top songs. It also allows

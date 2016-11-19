@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PortfolioHeader from './PortfolioHeader.js'
 
-class Info extends Component{
+class Instagram extends Component{
 
   render(){
     return(
@@ -9,10 +9,11 @@ class Info extends Component{
         <div className="PortfolioHeader">
           <PortfolioHeader/>
         </div>
+        <h3>Under Construction</h3>
 
       </div>
     )
   }
 
 }
-export default Info
+export default Instagram

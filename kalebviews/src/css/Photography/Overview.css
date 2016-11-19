@@ -1,0 +1,50 @@
+@import 'https://fonts.googleapis.com/css?family=NTR';
+
+.gridContainer{
+  list-style: none;
+  width:86%;
+  margin: 0;
+  columns: 3 auto;
+  column-gap: .5vw;
+}
+
+@media only screen and (max-width: 700px){
+    .gridContainer {
+      list-style: none;
+      width:86%;
+      margin: 0;
+      columns: 2 auto;
+      column-gap: .5vw;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .gridContainer {
+      list-style: none;
+      width:86%;
+      margin: 0;
+      columns: 1 auto;
+      column-gap: .5vw;
+    }
+}
+/*To decrease the size of the picture simple toggles the width in gridlist and make sure the container dive doesnt have columns set*/
+.gridlist{
+  margin-top: 0;
+  padding: 16px;
+  width: 100%;
+  float: right;
+}
+
+.href{
+  width: 100%;
+  display: block;
+  outline: none;
+  border: none;
+}
+
+.images{
+  outline: none;
+  border: none;
+  display: block;
+  width: 100%;
+}
